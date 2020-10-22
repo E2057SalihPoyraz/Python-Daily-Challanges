@@ -1,1 +1,1 @@
-# Directory for Python-Daily-Challanges on Clarusway Bootcamp.
+# Directory for Python-Daily_Challenges on Clarusway Bootcamp.
