@@ -29,3 +29,11 @@ def subset(lst, k):
         for p in x:
             if sum(p) == k:
                 return p
+
+# 3:
+def subarraySum(nums,k):
+    result = []
+    for i in nums:
+        result += [j + [i] for j in result]
+        result.append([i])
+    return list(filter(lambda x: sum(x) == k, result))
