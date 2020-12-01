@@ -25,3 +25,9 @@ class Solution:
 #çözüm:3
 def majorityElement(nums):
     return max(set(nums),key=nums.count)
+
+# çözüm:4
+def bul(arr):
+    for i in set(arr):
+        if arr.count(i) > len(arr)/2: return i
+
