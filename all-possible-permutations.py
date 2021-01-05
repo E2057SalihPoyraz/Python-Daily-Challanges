@@ -50,4 +50,4 @@ for n in nums:
           for i in range(len(perm)+1):
             new_perms.append(perm[:i] + [n] + perm[i:])
             result_perms = new_perms
-print(sorted(result_perms))
+print(sorted(result_perms)) 
